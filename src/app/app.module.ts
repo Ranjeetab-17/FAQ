@@ -45,11 +45,17 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
-import { FlexLayoutModule } from '@angular/flex-layout'
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { SnakbarComponent } from './components/snakbar/snakbar.component';
+import { AddfaqComponent } from './components/addfaq/addfaq.component';
+import { FaqsComponent } from './components/faqs/faqs.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SnakbarComponent,
+    AddfaqComponent,
+    FaqsComponent
   ],
   imports: [
     BrowserModule,
@@ -98,6 +104,7 @@ import { FlexLayoutModule } from '@angular/flex-layout'
     FlexLayoutModule
   ],
   providers: [],
+  entryComponents: [SnakbarComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

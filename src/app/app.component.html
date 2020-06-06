@@ -1,10 +1,13 @@
-<div class="my-dark-theme" style="position:absolute;top:0;left:0;right:0;bottom:0;">
+<div [class]="'my-dark-theme'" style="position:absolute;top:0;left:0;right:0;bottom:0;">
 
   <mat-sidenav-container fullscreen>
 
     <div fxLayout="row" fxLayoutAlign="start center">
-      <div fxFlex="20%">
+      <div fxFlex="10%">
         <span class="mat-display-1">FAQ</span>
+      </div>
+      <div fxFlex="10%">
+        <img src="assets/images/faq.svg" style="height: 30px;" alt="">
       </div>
       <div fxFlex="60%">
         <mat-form-field appearance="outline" class="search">
@@ -12,10 +15,13 @@
           <mat-icon matSuffix>search</mat-icon>
         </mat-form-field>
       </div>
-      <div fxFlex="20%" fxLayoutAlign="center center">
+      <div fxFlex="10%" fxLayoutAlign="center center">
         <button mat-icon-button>
           <mat-icon matBadge="8">notifications</mat-icon>
         </button>
+      </div>
+      <div fxFlex="10%" fxLayoutAlign="center center">
+        <mat-slide-toggle (change)="toggleTheme()">Slide me!</mat-slide-toggle>
       </div>
     </div>
 
@@ -23,7 +29,7 @@
 
     <router-outlet></router-outlet>
 
-    <div>
+    <!-- <div>
 
 
 
@@ -57,7 +63,7 @@
       <button mat-raised-button color="accent">Accent</button>
       <button mat-raised-button color="warn">Warn</button>
 
-    </div>
+    </div> -->
   </mat-sidenav-container>
 
 </div>
