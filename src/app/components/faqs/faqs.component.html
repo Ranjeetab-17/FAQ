@@ -1,5 +1,5 @@
 <div fxLayout="row" fxLayoutAlign="space-between">
-    <div fxFlex="15%">
+    <div fxFlex="15%" style="position: fixed;left: 15px;">
 
         <mat-list role="list">
             <mat-list-item role="listitem">
@@ -25,7 +25,7 @@
 
     </div>
 
-    <div fxFlex="60%">
+    <div fxFlex="60%" fxLayoutAligh="center center" style="margin-left: 15%;">
         <mat-card *ngFor="let faq of faqs">
 
             <mat-card-header>
@@ -36,6 +36,19 @@
                 </mat-card-subtitle>
 
                 <img mat-card-avatar [src]="faq.addby" matTooltip="Added by Ranjeet" alt="">
+
+                <span style="flex: 1 1 auto;"></span>
+
+
+                <button mat-icon-button matTooltip="Bookmark this solution">
+                    <mat-icon>bookmark</mat-icon>
+                </button>
+
+                <div>
+                    <img mat-card-avatar src="assets/status/solved.png" alt="">
+                </div>
+
+
             </mat-card-header>
 
             <mat-card-content>
@@ -47,7 +60,16 @@
 
                     <div fxFlex="100%">
 
-                        <mat-label>Description</mat-label>
+                        <mat-label>Description :</mat-label>
+
+                        <p>
+                            {{faq.description}}
+                        </p>
+                    </div>
+
+                    <div fxFlex="100%">
+
+                        <mat-label>Solution : </mat-label>
 
                         <p>
                             {{faq.description}}
@@ -105,7 +127,7 @@
         </mat-card>
     </div>
 
-    <div fxFlex="23%" fxLayoutAlign="start start">
+    <div fxFlex="23%" fxLayoutAlign="start start" style="position: fixed;right: 20px;">
         <mat-accordion>
             <mat-expansion-panel *ngFor="let user of users">
                 <mat-expansion-panel-header>
