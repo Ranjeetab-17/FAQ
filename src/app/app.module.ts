@@ -48,14 +48,17 @@ import { MatTreeModule } from '@angular/material/tree';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SnakbarComponent } from './components/snakbar/snakbar.component';
 import { AddfaqComponent } from './components/addfaq/addfaq.component';
-import { FaqsComponent } from './components/faqs/faqs.component'
+import { FaqsComponent } from './components/faqs/faqs.component';
+import { ScrolltopComponent } from './components/scrolltop/scrolltop.component'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     SnakbarComponent,
     AddfaqComponent,
-    FaqsComponent
+    FaqsComponent,
+    ScrolltopComponent
   ],
   imports: [
     BrowserModule,
@@ -101,7 +104,8 @@ import { FaqsComponent } from './components/faqs/faqs.component'
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    HttpClientModule
   ],
   providers: [],
   entryComponents: [SnakbarComponent],

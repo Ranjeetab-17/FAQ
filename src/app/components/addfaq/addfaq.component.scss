@@ -1,0 +1,22 @@
+@import '~@angular/material/theming';
+// always include only once per project
+@include mat-core();
+
+ $custom-typography:mat-typography-config(
+     $font-family: 'Comic Sans MS',
+     $headline: mat-typography-level(18px, 48px, 700),
+     $body-1: mat-typography-level(14px, 24px, 500),
+     $button: mat-typography-level(12px, 16px, 500),  
+     $input: mat-typography-level(12px, 1.25, 400),       
+ );
+
+ @include mat-core($custom-typography);
+
+ mat-card{
+     margin:2em auto;
+     width: 60%;
+ }
+
+ mat-form-field{
+     width:100%
+ }

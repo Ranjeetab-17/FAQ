@@ -11,7 +11,10 @@
      $headline: mat-typography-level(18px, 48px, 700),
      $body-1: mat-typography-level(14px, 24px, 500),
      $button: mat-typography-level(12px, 16px, 500),  
-     $input: mat-typography-level(14px, 1.25, 400),       
+     $input: mat-typography-level(14px, 1.25, 400), 
+     $display-3: mat-typography-level(25px, 40px, 400),
+     $display-2: mat-typography-level(20px, 40px, 400),
+     $display-1: mat-typography-level(15px, 40px, 400)      
  );
 
  @include mat-core($custom-typography);
