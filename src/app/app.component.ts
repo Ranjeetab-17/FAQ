@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { SnakbarComponent } from './components/snakbar/snakbar.component';
 import { Howl, Howler } from 'howler';
+import { NgloaderService } from './services/ngloader.service';
 
 
 @Component({
@@ -13,10 +14,9 @@ export class AppComponent implements OnInit {
   title = 'FAQ';
   isLightTheme: boolean = false;
   myTheme: string = "my-dark-theme";
-  constructor(private _snackBar: MatSnackBar) { }
+  constructor(private _snackBar: MatSnackBar, public loaderService: NgloaderService) { }
 
   ngOnInit(): void {
-
   }
 
   OpenSnackbar() {

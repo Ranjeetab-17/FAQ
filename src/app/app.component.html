@@ -1,5 +1,17 @@
-<div [class]="myTheme" style="position:absolute;top:0;left:0;right:0;bottom:0;">
+<ngx-ui-loader [fgsColor]="loaderService.config.fgsColor" [fgsPosition]="loaderService.config.fgsPosition"
+  [fgsSize]="loaderService.config.fgsSize" [fgsType]="loaderService.config.fgsType"
+  [bgsColor]="loaderService.config.bgsColor" [bgsOpacity]="loaderService.config.bgsOpacity"
+  [bgsPosition]="loaderService.config.bgsPosition" [bgsSize]="loaderService.config.bgsSize"
+  [bgsType]="loaderService.config.bgsType" [gap]="loaderService.config.gap"
+  [logoPosition]="loaderService.config.logoPosition" [logoSize]="loaderService.config.logoSize"
+  [logoUrl]="loaderService.config.logoUrl" [overlayColor]="loaderService.config.overlayColor"
+  [pbColor]="loaderService.config.pbColor" [pbDirection]="loaderService.config.pbDirection"
+  [pbThickness]="loaderService.config.pbThickness" [hasProgressBar]="loaderService.config.hasProgressBar"
+  [text]="loaderService.config.text" [textColor]="loaderService.config.textColor"
+  [textPosition]="loaderService.config.textPosition"></ngx-ui-loader>
 
+<div [class]="myTheme" ngxUiLoaderBlurred [blur]="loaderService.config.blur"
+  style="position:absolute;top:0;left:0;right:0;bottom:0;">
   <mat-sidenav-container fullscreen>
 
     <div fxLayout="row" fxLayoutAlign="start center">
