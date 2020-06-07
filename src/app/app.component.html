@@ -10,17 +10,35 @@
   [text]="loaderService.config.text" [textColor]="loaderService.config.textColor"
   [textPosition]="loaderService.config.textPosition"></ngx-ui-loader>
 
-<div [class]="myTheme" ngxUiLoaderBlurred [blur]="loaderService.config.blur"
-  style="position:absolute;top:0;left:0;right:0;bottom:0;">
+<div ngxUiLoaderBlurred [blur]="loaderService.config.blur" style="position:absolute;top:0;left:0;right:0;bottom:0;">
   <mat-sidenav-container fullscreen>
 
-    <div fxLayout="row" fxLayoutAlign="start center">
-      <div fxFlex="10%">
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <div fxLayoutOffset="5%" fxFlex="5%">
         <span class="mat-display-3">FAQ</span>
       </div>
-      <div fxFlex="10%">
+      <!-- <div fxFlex="10%">
         <img src="assets/images/faq.svg" style="height: 30px;" alt="">
+      </div> -->
+
+      <div fxFlex>
+        <button mat-button [routerLink]='["add"]' color="primary">
+          Add new FAQ
+        </button>
       </div>
+      <div fxFlex>
+        <button [routerLink]='["faqs"]' mat-button color="primary">
+          Users FAQs
+        </button>
+      </div>
+
+      &nbsp;
+      <div fxFlex>
+        <button [routerLink]='["users"]' mat-button color="primary">
+          Users <mat-icon>people_outline</mat-icon>
+        </button>
+      </div>
+
       <div fxFlex="60%">
         <mat-form-field appearance="outline" class="search">
           <input matInput placeholder="You are looking for ?">
@@ -32,13 +50,10 @@
           <mat-icon matBadge="8">notifications</mat-icon>
         </button>
       </div>
+
+
       <div fxFlex>
-        <button mat-button [routerLink]='["add"]'>
-          Add new FAQ
-        </button>
-      </div>
-      <div fxFlex>
-        <button mat-raised-button color="primary">
+        <button mat-raised-button color="primary" (click)="openDialog()">
           Sign In
         </button>
       </div>

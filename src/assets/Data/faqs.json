@@ -3,6 +3,51 @@
         "faqTitle": "Cash Tile issues",
         "faqSubTitle": "Issue on cash tile",
         "addby": "assets/users/profile.jpg",
+        "content": "cashtile,cashtileobo",
+        "attachments": [
+            {
+                "errorImg": "assets/issues/error1.png"
+            },
+            {
+                "errorImg": "assets/issues/error2.jpg"
+            },
+            {
+                "errorImg": "assets/issues/error3.png"
+            },
+            {
+                "errorImg": "assets/issues/error4.jpg"
+            },
+            {
+                "errorImg": "assets/issues/error5.png"
+            },
+            {
+                "errorImg": "assets/issues/error4.png"
+            },
+            {
+                "errorImg": "assets/issues/error6.png"
+            }
+        ],
+        "likes": "20",
+        "dislikes": "15",
+        "comments": [
+            {
+                "name": "Ranjeet",
+                "profile": "assets/users/profile.jpg",
+                "comment": "I ran into a similar issue a while back, and this worked for Angular 4. Hopefully, you can use it too. This is in app.component.ts"
+            },
+            {
+                "name": "Munna",
+                "profile": "assets/users/newUser.jpg",
+                "comment": "I ran into a similar issue a while back, and this worked for Angular 4. Hopefully, you can use it too. This is in app.component.ts"
+            }
+        ],
+        "description": "Dividers can be added to lists as a means of separating content into distinct sections. Inset dividers can also be added to provide the appearance of distinct elements in a list without cluttering content like avatar images or icons. Make sure to avoid adding an inset divider to the last element in a list, because it will overlap with the section divider."
+    },
+    {
+        "faqTitle": "Cash OBO Tile issues",
+        "faqSubTitle": "Issue on cash obo tile",
+        "addby": "assets/users/newUser.jpg",
+        "content": "cashtile,cashtileobo",
         "attachments": [
             {
                 "errorImg": "assets/issues/error1.png"
@@ -37,6 +82,7 @@
         "faqTitle": "Cash OBO Tile issues",
         "faqSubTitle": "Issue on cash obo tile",
         "addby": "assets/users/newUser.jpg",
+        "content": "cashtile,cashtileobo",
         "attachments": [
             {
                 "errorImg": "assets/issues/error1.png"

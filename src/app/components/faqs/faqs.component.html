@@ -15,14 +15,11 @@
 
         <span class="mat-display-1">filter content</span>
 
-        <mat-selection-list #shoes>
-            <mat-list-option *ngFor="let shoe of typesOfShoes">
+        <mat-selection-list #shoes (selectionChange)="onSelection($event, shoes.selectedOptions)">
+            <mat-list-option *ngFor="let shoe of typesOfShoes" [value]="shoe">
                 {{shoe}}
             </mat-list-option>
         </mat-selection-list>
-
-
-
     </div>
 
     <div fxFlex="60%" fxLayoutAligh="center center" style="margin-left: 15%;">
@@ -134,8 +131,12 @@
                     <mat-panel-title>
                         <img mat-card-avatar [src]="user.profile" alt="..." matBadge="4">
                     </mat-panel-title>
-                    <mat-panel-description>
+                    <mat-panel-description fxLayoutAlign="start center">
                         {{user.name}}
+                        <span style="flex:1 1 auto;"></span>
+
+
+                        <span [class]="user.status"></span>
                     </mat-panel-description>
                 </mat-expansion-panel-header>
 
@@ -150,6 +151,10 @@
                         <span class="mat-display-1">Blotter : 05 </span>
                     </mat-list-item>
                 </mat-list>
+
+                <button mat-icon-button>
+                    <mat-icon matBadge="4">forum</mat-icon>
+                </button>
             </mat-expansion-panel>
         </mat-accordion>
 

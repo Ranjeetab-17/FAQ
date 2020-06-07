@@ -3,6 +3,7 @@ import Viewer from 'viewerjs';
 import { HttpClient } from '@angular/common/http';
 import { IUsers } from 'src/app/models/iusers';
 import { IFAQ } from 'src/app/models/IFAQ';
+import { NgloaderService } from 'src/app/services/ngloader.service';
 
 @Component({
   selector: 'app-faqs',
@@ -13,10 +14,11 @@ export class FaqsComponent implements OnInit {
 
   private users: Array<IUsers>;
   private faqs: IFAQ;
+  current_selected: string;
 
   typesOfShoes: string[] = ['All', 'Cashtile', 'Cashtile OBO', 'Blotter', 'DCI'];
 
-  constructor(private _http: HttpClient) { }
+  constructor(private _http: HttpClient, private loaderService: NgloaderService) { }
 
   ngOnInit() {
     this.getUSers();
@@ -55,6 +57,14 @@ export class FaqsComponent implements OnInit {
   getFAQs() {
     this._http.get('assets/Data/faqs.json').subscribe((res: IFAQ) => {
       this.faqs = res;
+    })
+  }
+
+  onSelection(e, v) {
+    this.current_selected = e.option.value;
+
+    this._http.get('https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/customers.json').subscribe((res) => {
+      console.log('called');
     })
   }
 

@@ -1,0 +1,29 @@
+<div fxLayout="row wrap">
+
+
+    <span class="mat-display-3">Login</span>
+    <span style="flex:1 1 auto"></span>
+    <img src="assets/images/faq%20(1).svg" height="80px" alt="">
+
+
+    <div fxFlex="100%">
+        <mat-form-field appearance="outline">
+            <input matInput placeholder="User" autocomplete="false" style="background-color: none;">
+        </mat-form-field>
+    </div>
+    <div fxFlex="100%">
+        <mat-form-field appearance="outline">
+            <input matInput placeholder="Password" type="password" autocomplete="false">
+        </mat-form-field>
+    </div>
+    <div fxFlex="100%">
+        <button mat-raised-button color="primary">
+            Login
+        </button>
+        &nbsp;
+        <button mat-raised-button color="accent" (click)="onNoClick()">
+            Cancel
+        </button>
+    </div>
+
+</div>

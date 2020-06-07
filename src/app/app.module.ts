@@ -61,14 +61,18 @@ import {
   NgxUiLoaderHttpModule
 } from 'ngx-ui-loader';
 import { NgloaderService } from './services/ngloader.service';
+import { UsersComponent } from './components/users/users.component';
+import { LoginComponent } from './components/login/login.component';
+import { OverlayContainer } from '@angular/cdk/overlay';
+//import { NgChatModule } from 'ng-chat';
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
-  bgsColor: 'red',
-  // bgsOpacity: 0.5,
-  // bgsPosition: POSITION.bottomLeft,
-  // bgsSize: 60,
-  // bgsType: SPINNER.chasingDots,
-  // blur: 5,
+  bgsColor: '#ed37c3',
+  bgsOpacity: 0.5,
+  bgsPosition: POSITION.centerCenter,
+  bgsSize: 70,
+  bgsType: SPINNER.threeStrings,
+  blur: 5,
   // delay: 0,
   fastFadeOut: true,
   fgsColor: '#d9e5e1',
@@ -81,7 +85,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   logoUrl: 'assets/images/angular.png',
   // overlayBorderRadius: '0',
   // overlayColor: 'rgba(40, 40, 40, 0.8)',
-  pbColor: 'red',
+  pbColor: '#d9e5e1',
   // pbDirection: PB_DIRECTION.leftToRight,
   // pbThickness: 5,
   hasProgressBar: true,
@@ -99,7 +103,9 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     SnakbarComponent,
     AddfaqComponent,
     FaqsComponent,
-    ScrolltopComponent
+    ScrolltopComponent,
+    UsersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -151,9 +157,14 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     NgxUiLoaderModule.forRoot(ngxUiLoaderConfig),
     NgxUiLoaderRouterModule, // import this module for showing loader automatically when navigating between app routes
     NgxUiLoaderHttpModule
+    //NgChatModule
   ],
   providers: [NgloaderService],
-  entryComponents: [SnakbarComponent],
+  entryComponents: [SnakbarComponent, LoginComponent],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(overlayContainer: OverlayContainer) {
+    overlayContainer.getContainerElement().classList.add('my-dark-theme');
+  }
+}
