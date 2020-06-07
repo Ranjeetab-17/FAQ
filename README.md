@@ -1,5 +1,0 @@
-# FAQ
-
----
-permalink: /index.html
----
