@@ -1,0 +1,250 @@
+[
+    {
+        "name": "Todd Motto",
+        "profilePicture": "assets/users/Todd.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Jennifer wadella",
+        "profilePicture": "assets/users/Jennifer.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Munna Sala",
+        "profilePicture": "assets/users/munna.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Caleb Curry",
+        "profilePicture": "assets/users/Caleb.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Kendra Havens",
+        "profilePicture": "assets/users/Kendra.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Mosh Hamedani",
+        "profilePicture": "assets/users/Mosh.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Todd Motto",
+        "profilePicture": "assets/users/Todd.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Todd Motto",
+        "profilePicture": "assets/users/Todd.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    }
+]
