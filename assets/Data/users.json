@@ -2,7 +2,7 @@
     {
         "name": "Todd Motto",
         "profilePicture": "assets/users/Todd.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. ",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
@@ -33,7 +33,7 @@
     {
         "name": "Jennifer wadella",
         "profilePicture": "assets/users/Jennifer.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK.",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
@@ -64,7 +64,7 @@
     {
         "name": "Munna Sala",
         "profilePicture": "assets/users/munna.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK.",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
@@ -95,7 +95,7 @@
     {
         "name": "Caleb Curry",
         "profilePicture": "assets/users/Caleb.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK.",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
@@ -126,7 +126,7 @@
     {
         "name": "Kendra Havens",
         "profilePicture": "assets/users/Kendra.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK.",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
@@ -157,7 +157,7 @@
     {
         "name": "Mosh Hamedani",
         "profilePicture": "assets/users/Mosh.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK.",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
@@ -186,9 +186,9 @@
         ]
     },
     {
-        "name": "Todd Motto",
-        "profilePicture": "assets/users/Todd.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "name": "Ranjeet Prajapati",
+        "profilePicture": "assets/users/Ranjeet1.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. ",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
@@ -217,9 +217,40 @@
         ]
     },
     {
-        "name": "Todd Motto",
-        "profilePicture": "assets/users/Todd.jpg",
-        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. He's taught millions of developers world-wide through his blogs, videos, conferences and workshops. He focuses on teaching Angular and JavaScript courses over on Ultimate Courses.",
+        "name": "Pradeep Arya",
+        "profilePicture": "assets/users/default.png",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. ",
+        "expertise": [
+            "language-javascript",
+            "language-typesctipt",
+            "language-csharp",
+            "angular",
+            "dot-net",
+            "database-search"
+        ],
+        "socialLinks": [
+            {
+                "icon": "facebook-box",
+                "link": ""
+            },
+            {
+                "icon": "google-plus",
+                "link": ""
+            },
+            {
+                "icon": "linkedin-box",
+                "link": ""
+            },
+            {
+                "icon": "github-box",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "name": "Pradeep Arya",
+        "profilePicture": "assets/users/profile.jpg",
+        "about": "Todd Motto. Todd Motto (@toddmotto) is a Google Developer Expert from England, UK. ",
         "expertise": [
             "language-javascript",
             "language-typesctipt",
